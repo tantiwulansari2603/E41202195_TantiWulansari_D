@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--Untuk menambahkan item pada menu bottom navigation-->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_menu_minuman"
+        android:icon="@drawable/menu"
+        android:title="Menu"/>
+    <item
+        android:id="@+id/nav_akun"
+        android:icon="@drawable/account"
+        android:title="Account"/>
+
+</menu>

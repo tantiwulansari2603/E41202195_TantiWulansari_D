@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Home">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--Untuk menambahkan gambar yang akan digunakan-->
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:src="@drawable/boba"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="123dp"
+        />
+
+<!--Untuk menambahkan teks Gug ICE-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gug ICE"
+        android:layout_marginTop="310dp"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="130dp"/>
+
+<!--Untuk menambahkan teks Segar, Nyaman, dan Tentram-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segar, Nyaman, dan Tentram"
+        android:layout_marginTop="370dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menyediakan minuman dengan berbagai rasa yang bisa membuat ketagihan. Tersedia banyak varian rasa"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+</RelativeLayout>

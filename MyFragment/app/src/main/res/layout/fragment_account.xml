@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Account">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--Image view ini menggunakan icon yang tersedia di AS-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/account"/>
+
+<!--Digunakan untuk teks yaitu Akun-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text=" Akun"
+        android:textSize="17dp"
+        android:padding="8dp"/>
+
+<!--Digunakan untuk teks yaitu Tanti Wulansari-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/backtext"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="  Tanti Wulansari"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+<!--Digunakan untuk teks yaitu Kode Karyawan-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/backtext"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="  Kode Karyawan"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+<!--Digunakan untuk teks yaitu Bagian Penjaga Stand-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/backtext"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="  Bagian Penjaga Stand"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+<!--Digunakan untuk teks yaitu Info Lainnya-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text=" Info Lainnya"
+        android:textSize="17dp"
+        android:padding="8dp"/>
+
+<!--Digunakan untuk teks yaitu Kebijakan Privasi-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/backtext"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="  Kebijakan Privasi"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+<!--Digunakan untuk teks yaitu Ketentuan Lainnya-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/backtext"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="  Ketentuan Layanan"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+<!--Digunakan untuk teks yaitu Beri Rating-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/backtext"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="  Beri Rating"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:text="Logout"
+        android:layout_marginLeft="270dp"/>
+
+
+</RelativeLayout>
